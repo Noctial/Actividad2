@@ -1,0 +1,52 @@
+section{
+    justify-content: center;
+    gap: 16px;
+    margin: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: rgb(233, 247, 255);
+    border: 3px solid rgb(63, 0, 238);
+    margin: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.274);
+}
+
+article:hover{
+    background-color: rgb(192, 230, 252);
+    border: 3px solid rgb(63, 0, 238);
+}
+
+article img{
+    margin-left: 20px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+article h3{
+    color: blue;
+    margin-bottom: 15px;
+}
+
+article p{
+    font-size: 30px;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+h2{
+    color: rgb(62, 0, 233);
+    text-align: center;
+    margin-top: 20px;
+}
+
